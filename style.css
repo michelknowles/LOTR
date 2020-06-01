@@ -1,47 +1,106 @@
-html, head, body, h1, h2, h3, p, ol, ul, li, a {
+* {
     padding: 0;
     border: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     padding: 40px 40px 40px 40px;
+    background-image: url(https://vignette.wikia.nocookie.net/lotr/images/5/5e/Middle-earth-film.jpg/revision/latest?cb=20091103162232);
+    background-position: left;
 }
 h1 {
-    color: green;
+    color: white;
+    
     font-family: Arial;
     text-align: center;
-    border: 4px solid green;
-    padding: 5px 0px 5px 0px;
-    margin: 10px 0px 15px 0px;
+    font-size: 65px;
 }
 h2 {
     margin: 10px 0px 15px 0px;
     color: brown;
+    border: 4px solid brown;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
 }
+
 h3 {
     margin: 10px 0px 15px 0px;
     color: darkblue;
     border-bottom: 1px solid lightblue;
 }
-a {
-    text-decoration: none;
+p {
+    text-align: left;
     color: white;
-    background-color: blue;
+    background-color: brown;
     padding: 5px;
-    border-radius: 15%;
-    display: inline-block
-   
-}
-a:hover {
-    background-color: white;
-    border: 1px solid blue;
-    color: blue
-    
 }
 ol {
-    padding: 0px 0px 0px 50px;
+    
+    color: white;
+    background-color: brown;
+    display: block;
+    padding: 0px 0 5px 75px;
 }
 ul li {
     display: inline;
     text-align: center;
+}
+img {
+    width: 750px;
+    display: block;
+    margin: 0 auto;
+}
+.nav {
+    text-align: center;
+    padding-top: 10px
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 15%;
+    display: inline-block;
+   
+}
+.nav a:hover {
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+.weapon {
+    text-decoration: none;
+    color: black;
+    
+}
+.weapon:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.main-content {
+    width: 800px;
+    margin: 30px auto 0px auto;
+    background-color: brown;
+}
+
+.header {
+    width: 100%;
+    margin: 20px auto 0px auto;
+    background-color: brown;
+    border: 5px solid green;
+    padding: 10px;
+}
+.header img {
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    width: 100%;
+}
+.purpose {
+    padding-top: 15px;
 }
