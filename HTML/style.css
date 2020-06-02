@@ -31,6 +31,7 @@ h3 {
 }
 p {
     text-align: left;
+    line-height: 1.5;
     color: white;
     background-color: brown;
     padding: 5px;
@@ -102,4 +103,9 @@ img {
 }
 .purpose {
     padding-top: 15px;
+}
+p::first-letter {
+    font-size: 30px;
+    font-family: Luminari;
+    font-weight: bold;
 }
